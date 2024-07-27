@@ -319,7 +319,8 @@ To copy;
 sudo cp -r ~/marketPeak_Ecommerce/* /var/www/html
 ```
 
-The command sudo cp -r ~/marketPeak_Ecommerce/* /var/www/html is used to copy all files and subdirectories from the marketPeak_Ecommerce directory in your home directory (~) to the /var/www/html directory, which is the default document root for Apache web server on many Linux distribution.
+The command sudo cp -r ~/marketPeak_Ecommerce/* /var/www/html is used to copy all files and subdirectories from the marketPeak_Ecommerce directory in your home directory ~ to the /var/www/html directory, which is the default document root for Apache web server on many Linux distribution.
+
 
 ![sudo cp](./img/25.%20sudo%20cp.png)
 
@@ -362,7 +363,7 @@ To achieve this, on your terminal, ssh into your instance, then cd into MarketPe
 
   **Step 1:** Developing New Features and Fixes.
 
-  a. Creat a Development Branch:Begin your development work by creating a seperate branch. This isolates new features and bug fixes from the stable version of your website.
+  a. Create a Development Branch: Begin your development work by creating a seperate branch. This isolates new features and bug fixes from the stable version of your website.
 
     To start, exit from your instance, in order to navigate to your main branch.
 
@@ -375,7 +376,7 @@ To achieve this, on your terminal, ssh into your instance, then cd into MarketPe
 git branch development
 ```
       
-  Creates a new branch named "development" from the current branch (usually the main or master branch).
+  This command creates a new branch named "development" from the current branch (usually the main or master branch).
 
   ![a](./img/31.%20a.png)
 
@@ -384,7 +385,7 @@ c.
 ```
 git checkout development
 ```
- Switches the current branch to the newly created "development" branch.
+ This will switch the current branch to the newly created "development" branch.
 
 ![git checkout](./img/31.%20git%20checkout.png)
 
